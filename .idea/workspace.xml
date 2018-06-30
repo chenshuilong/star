@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29d393a4-8913-4dcb-bac0-5d9520adb004" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/animate.min.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/animate.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/contact.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/contact.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/cur.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/cur.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/index.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/initalize.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/initalize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/introduce.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/introduce.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/product.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/product.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/swiper.min.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/swiper.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/case/index.html.erb" afterPath="$PROJECT_DIR$/app/views/case/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contact/index.html.erb" afterPath="$PROJECT_DIR$/app/views/contact/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/introduce/index.html.erb" afterPath="$PROJECT_DIR$/app/views/introduce/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/product/index.html.erb" afterPath="$PROJECT_DIR$/app/views/product/index.html.erb" />
-    </list>
+    <list default="true" id="29d393a4-8913-4dcb-bac0-5d9520adb004" name="Default" comment="" />
     <ignored path="star.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -178,7 +162,6 @@
         <option value="$PROJECT_DIR$/app/views/contact/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/introduce.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/product.css" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/index.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/contact.css" />
         <option value="$PROJECT_DIR$/app/views/introduce/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/product/index.html.erb" />
@@ -188,6 +171,7 @@
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/cur.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/index.css" />
       </list>
     </option>
   </component>
@@ -336,6 +320,10 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -348,14 +336,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -584,18 +564,18 @@
       <updated>1529897842839</updated>
       <workItem from="1529897844517" duration="43417000" />
       <workItem from="1530238393165" duration="8890000" />
-      <workItem from="1530322375415" duration="2722000" />
+      <workItem from="1530322375415" duration="3228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55029000" />
+    <option name="totallyTimeSpent" value="55535000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1211" height="848" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25493562" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25493562" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931727" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48728245" sideWeight="0.5030043" order="8" side_tool="true" content_ui="tabs" />
