@@ -1,0 +1,144 @@
+I, [2018-06-29T18:04:22.386931 #312]  INFO -- : [c58bdf47-fb69-4229-8e22-57cd4f0719d6] Started GET "/" for 210.75.18.197 at 2018-06-29 18:04:22 +0800
+I, [2018-06-29T18:04:22.394345 #312]  INFO -- : [c58bdf47-fb69-4229-8e22-57cd4f0719d6] Processing by HomeController#index as HTML
+I, [2018-06-29T18:04:22.413078 #312]  INFO -- : [c58bdf47-fb69-4229-8e22-57cd4f0719d6]   Rendering home/index.html.erb within layouts/application
+I, [2018-06-29T18:04:22.415203 #312]  INFO -- : [c58bdf47-fb69-4229-8e22-57cd4f0719d6]   Rendered home/index.html.erb within layouts/application (2.0ms)
+I, [2018-06-29T18:04:22.415415 #312]  INFO -- : [c58bdf47-fb69-4229-8e22-57cd4f0719d6] Completed 500 Internal Server Error in 21ms
+F, [2018-06-29T18:04:22.416197 #312] FATAL -- : [c58bdf47-fb69-4229-8e22-57cd4f0719d6]   
+F, [2018-06-29T18:04:22.416230 #312] FATAL -- : [c58bdf47-fb69-4229-8e22-57cd4f0719d6] ActionView::Template::Error (The asset "index.css" is not present in the asset pipeline.):
+F, [2018-06-29T18:04:22.416446 #312] FATAL -- : [c58bdf47-fb69-4229-8e22-57cd4f0719d6]     1: <%= stylesheet_link_tag 'index', media: 'all', 'data-turbolinks-track' => true %>
+[c58bdf47-fb69-4229-8e22-57cd4f0719d6]     2: <%= stylesheet_link_tag 'initalize', media: 'all', 'data-turbolinks-track' => true %>
+[c58bdf47-fb69-4229-8e22-57cd4f0719d6]     3: <%= stylesheet_link_tag 'cur', media: 'all', 'data-turbolinks-track' => true %>
+[c58bdf47-fb69-4229-8e22-57cd4f0719d6]     4: <%= stylesheet_link_tag 'swiper.min', media: 'all', 'data-turbolinks-track' => true %>
+F, [2018-06-29T18:04:22.416464 #312] FATAL -- : [c58bdf47-fb69-4229-8e22-57cd4f0719d6]   
+F, [2018-06-29T18:04:22.416482 #312] FATAL -- : [c58bdf47-fb69-4229-8e22-57cd4f0719d6] app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__1273685551376773093_47144260922880'
+I, [2018-06-29T18:05:36.988962 #312]  INFO -- : [7194acdd-2963-4277-a434-b62d48fd7296] Started GET "/home/index" for 210.75.18.197 at 2018-06-29 18:05:36 +0800
+I, [2018-06-29T18:05:36.991954 #312]  INFO -- : [7194acdd-2963-4277-a434-b62d48fd7296] Processing by HomeController#index as HTML
+I, [2018-06-29T18:05:36.993239 #312]  INFO -- : [7194acdd-2963-4277-a434-b62d48fd7296]   Rendering home/index.html.erb within layouts/application
+I, [2018-06-29T18:05:36.994027 #312]  INFO -- : [7194acdd-2963-4277-a434-b62d48fd7296]   Rendered home/index.html.erb within layouts/application (0.7ms)
+I, [2018-06-29T18:05:36.994152 #312]  INFO -- : [7194acdd-2963-4277-a434-b62d48fd7296] Completed 500 Internal Server Error in 2ms
+F, [2018-06-29T18:05:36.994860 #312] FATAL -- : [7194acdd-2963-4277-a434-b62d48fd7296]   
+F, [2018-06-29T18:05:36.994895 #312] FATAL -- : [7194acdd-2963-4277-a434-b62d48fd7296] ActionView::Template::Error (The asset "index.css" is not present in the asset pipeline.):
+F, [2018-06-29T18:05:36.995094 #312] FATAL -- : [7194acdd-2963-4277-a434-b62d48fd7296]     1: <%= stylesheet_link_tag 'index', media: 'all', 'data-turbolinks-track' => true %>
+[7194acdd-2963-4277-a434-b62d48fd7296]     2: <%= stylesheet_link_tag 'initalize', media: 'all', 'data-turbolinks-track' => true %>
+[7194acdd-2963-4277-a434-b62d48fd7296]     3: <%= stylesheet_link_tag 'cur', media: 'all', 'data-turbolinks-track' => true %>
+[7194acdd-2963-4277-a434-b62d48fd7296]     4: <%= stylesheet_link_tag 'swiper.min', media: 'all', 'data-turbolinks-track' => true %>
+F, [2018-06-29T18:05:36.995118 #312] FATAL -- : [7194acdd-2963-4277-a434-b62d48fd7296]   
+F, [2018-06-29T18:05:36.995136 #312] FATAL -- : [7194acdd-2963-4277-a434-b62d48fd7296] app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__1273685551376773093_47144260922880'
+I, [2018-06-29T18:13:51.430048 #1221]  INFO -- : [3f561726-0b7c-4176-b3ad-f083c27f0858] Started GET "/home/index" for 210.75.18.197 at 2018-06-29 18:13:51 +0800
+I, [2018-06-29T18:13:51.434252 #1221]  INFO -- : [3f561726-0b7c-4176-b3ad-f083c27f0858] Processing by HomeController#index as HTML
+I, [2018-06-29T18:13:51.457122 #1221]  INFO -- : [3f561726-0b7c-4176-b3ad-f083c27f0858]   Rendering home/index.html.erb within layouts/application
+I, [2018-06-29T18:13:51.708834 #1221]  INFO -- : [3f561726-0b7c-4176-b3ad-f083c27f0858]   Rendered home/index.html.erb within layouts/application (251.5ms)
+I, [2018-06-29T18:13:51.713168 #1221]  INFO -- : [3f561726-0b7c-4176-b3ad-f083c27f0858] Completed 500 Internal Server Error in 279ms
+F, [2018-06-29T18:13:51.713961 #1221] FATAL -- : [3f561726-0b7c-4176-b3ad-f083c27f0858]   
+F, [2018-06-29T18:13:51.713990 #1221] FATAL -- : [3f561726-0b7c-4176-b3ad-f083c27f0858] ActionView::Template::Error (Invalid CSS after "sition: relative": expected "{", was ";"):
+F, [2018-06-29T18:13:51.714182 #1221] FATAL -- : [3f561726-0b7c-4176-b3ad-f083c27f0858]     1: <%= stylesheet_link_tag 'index', media: 'all', 'data-turbolinks-track' => true %>
+[3f561726-0b7c-4176-b3ad-f083c27f0858]     2: <%= stylesheet_link_tag 'initalize', media: 'all', 'data-turbolinks-track' => true %>
+[3f561726-0b7c-4176-b3ad-f083c27f0858]     3: <%= stylesheet_link_tag 'cur', media: 'all', 'data-turbolinks-track' => true %>
+[3f561726-0b7c-4176-b3ad-f083c27f0858]     4: <%= stylesheet_link_tag 'swiper.min', media: 'all', 'data-turbolinks-track' => true %>
+F, [2018-06-29T18:13:51.714199 #1221] FATAL -- : [3f561726-0b7c-4176-b3ad-f083c27f0858]   
+F, [2018-06-29T18:13:51.714214 #1221] FATAL -- : [3f561726-0b7c-4176-b3ad-f083c27f0858] (sass):2
+[3f561726-0b7c-4176-b3ad-f083c27f0858] app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb___3589045502051293781_46924549873180'
+I, [2018-06-30T08:56:52.897230 #6541]  INFO -- : [5c35b47f-e637-4bc6-bb15-02b16890bd3a] Started GET "/home/index" for 210.75.18.197 at 2018-06-30 08:56:52 +0800
+I, [2018-06-30T08:56:52.900227 #6541]  INFO -- : [5c35b47f-e637-4bc6-bb15-02b16890bd3a] Processing by HomeController#index as HTML
+I, [2018-06-30T08:56:52.926430 #6541]  INFO -- : [5c35b47f-e637-4bc6-bb15-02b16890bd3a]   Rendering home/index.html.erb within layouts/application
+I, [2018-06-30T08:56:53.169330 #6541]  INFO -- : [5c35b47f-e637-4bc6-bb15-02b16890bd3a]   Rendered home/index.html.erb within layouts/application (242.7ms)
+I, [2018-06-30T08:56:53.169590 #6541]  INFO -- : [5c35b47f-e637-4bc6-bb15-02b16890bd3a] Completed 500 Internal Server Error in 269ms
+F, [2018-06-30T08:56:53.170359 #6541] FATAL -- : [5c35b47f-e637-4bc6-bb15-02b16890bd3a]   
+F, [2018-06-30T08:56:53.170387 #6541] FATAL -- : [5c35b47f-e637-4bc6-bb15-02b16890bd3a] ActionView::Template::Error (Invalid CSS after "sition: relative": expected "{", was ";"):
+F, [2018-06-30T08:56:53.170581 #6541] FATAL -- : [5c35b47f-e637-4bc6-bb15-02b16890bd3a]     1: <%= stylesheet_link_tag 'index', media: 'all', 'data-turbolinks-track' => true %>
+[5c35b47f-e637-4bc6-bb15-02b16890bd3a]     2: <%= stylesheet_link_tag 'initalize', media: 'all', 'data-turbolinks-track' => true %>
+[5c35b47f-e637-4bc6-bb15-02b16890bd3a]     3: <%= stylesheet_link_tag 'cur', media: 'all', 'data-turbolinks-track' => true %>
+[5c35b47f-e637-4bc6-bb15-02b16890bd3a]     4: <%= stylesheet_link_tag 'swiper.min', media: 'all', 'data-turbolinks-track' => true %>
+F, [2018-06-30T08:56:53.170598 #6541] FATAL -- : [5c35b47f-e637-4bc6-bb15-02b16890bd3a]   
+F, [2018-06-30T08:56:53.170614 #6541] FATAL -- : [5c35b47f-e637-4bc6-bb15-02b16890bd3a] (sass):2
+[5c35b47f-e637-4bc6-bb15-02b16890bd3a] app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__3922128903757640073_47082378899000'
+I, [2018-06-30T08:57:51.571724 #6541]  INFO -- : [39131998-0fce-4f2b-9c28-3295d54c4308] Started GET "/home/index" for 101.226.79.244 at 2018-06-30 08:57:51 +0800
+I, [2018-06-30T08:57:51.572577 #6541]  INFO -- : [39131998-0fce-4f2b-9c28-3295d54c4308] Processing by HomeController#index as */*
+I, [2018-06-30T08:57:51.576172 #6541]  INFO -- : [39131998-0fce-4f2b-9c28-3295d54c4308]   Rendering home/index.html.erb within layouts/application
+I, [2018-06-30T08:57:51.581727 #6541]  INFO -- : [39131998-0fce-4f2b-9c28-3295d54c4308]   Rendered home/index.html.erb within layouts/application (5.5ms)
+I, [2018-06-30T08:57:51.581843 #6541]  INFO -- : [39131998-0fce-4f2b-9c28-3295d54c4308] Completed 500 Internal Server Error in 9ms
+F, [2018-06-30T08:57:51.582596 #6541] FATAL -- : [39131998-0fce-4f2b-9c28-3295d54c4308]   
+F, [2018-06-30T08:57:51.582637 #6541] FATAL -- : [39131998-0fce-4f2b-9c28-3295d54c4308] ActionView::Template::Error (Invalid CSS after "sition: relative": expected "{", was ";"):
+F, [2018-06-30T08:57:51.582808 #6541] FATAL -- : [39131998-0fce-4f2b-9c28-3295d54c4308]     1: <%= stylesheet_link_tag 'index', media: 'all', 'data-turbolinks-track' => true %>
+[39131998-0fce-4f2b-9c28-3295d54c4308]     2: <%= stylesheet_link_tag 'initalize', media: 'all', 'data-turbolinks-track' => true %>
+[39131998-0fce-4f2b-9c28-3295d54c4308]     3: <%= stylesheet_link_tag 'cur', media: 'all', 'data-turbolinks-track' => true %>
+[39131998-0fce-4f2b-9c28-3295d54c4308]     4: <%= stylesheet_link_tag 'swiper.min', media: 'all', 'data-turbolinks-track' => true %>
+F, [2018-06-30T08:57:51.582824 #6541] FATAL -- : [39131998-0fce-4f2b-9c28-3295d54c4308]   
+F, [2018-06-30T08:57:51.582838 #6541] FATAL -- : [39131998-0fce-4f2b-9c28-3295d54c4308] (sass):2
+[39131998-0fce-4f2b-9c28-3295d54c4308] app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__3922128903757640073_69885438601740'
+I, [2018-06-30T08:58:26.610610 #6541]  INFO -- : [2fe219a6-ebeb-46d1-a4b9-8731655d8075] Started GET "/" for 210.75.18.197 at 2018-06-30 08:58:26 +0800
+I, [2018-06-30T08:58:26.611443 #6541]  INFO -- : [2fe219a6-ebeb-46d1-a4b9-8731655d8075] Processing by HomeController#index as HTML
+I, [2018-06-30T08:58:26.612556 #6541]  INFO -- : [2fe219a6-ebeb-46d1-a4b9-8731655d8075]   Rendering home/index.html.erb within layouts/application
+I, [2018-06-30T08:58:26.615031 #6541]  INFO -- : [2fe219a6-ebeb-46d1-a4b9-8731655d8075]   Rendered home/index.html.erb within layouts/application (2.4ms)
+I, [2018-06-30T08:58:26.615151 #6541]  INFO -- : [2fe219a6-ebeb-46d1-a4b9-8731655d8075] Completed 500 Internal Server Error in 4ms
+F, [2018-06-30T08:58:26.615917 #6541] FATAL -- : [2fe219a6-ebeb-46d1-a4b9-8731655d8075]   
+F, [2018-06-30T08:58:26.615946 #6541] FATAL -- : [2fe219a6-ebeb-46d1-a4b9-8731655d8075] ActionView::Template::Error (Invalid CSS after "sition: relative": expected "{", was ";"):
+F, [2018-06-30T08:58:26.616103 #6541] FATAL -- : [2fe219a6-ebeb-46d1-a4b9-8731655d8075]     1: <%= stylesheet_link_tag 'index', media: 'all', 'data-turbolinks-track' => true %>
+[2fe219a6-ebeb-46d1-a4b9-8731655d8075]     2: <%= stylesheet_link_tag 'initalize', media: 'all', 'data-turbolinks-track' => true %>
+[2fe219a6-ebeb-46d1-a4b9-8731655d8075]     3: <%= stylesheet_link_tag 'cur', media: 'all', 'data-turbolinks-track' => true %>
+[2fe219a6-ebeb-46d1-a4b9-8731655d8075]     4: <%= stylesheet_link_tag 'swiper.min', media: 'all', 'data-turbolinks-track' => true %>
+F, [2018-06-30T08:58:26.616122 #6541] FATAL -- : [2fe219a6-ebeb-46d1-a4b9-8731655d8075]   
+F, [2018-06-30T08:58:26.616137 #6541] FATAL -- : [2fe219a6-ebeb-46d1-a4b9-8731655d8075] (sass):2
+[2fe219a6-ebeb-46d1-a4b9-8731655d8075] app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__3922128903757640073_47082378899000'
+I, [2018-06-30T08:59:26.208972 #6541]  INFO -- : [4bdf0922-f523-4136-b577-a03343ae2174] Started GET "/" for 101.226.93.193 at 2018-06-30 08:59:26 +0800
+I, [2018-06-30T08:59:26.209730 #6541]  INFO -- : [4bdf0922-f523-4136-b577-a03343ae2174] Processing by HomeController#index as */*
+I, [2018-06-30T08:59:26.210436 #6541]  INFO -- : [4bdf0922-f523-4136-b577-a03343ae2174]   Rendering home/index.html.erb within layouts/application
+I, [2018-06-30T08:59:26.215037 #6541]  INFO -- : [4bdf0922-f523-4136-b577-a03343ae2174]   Rendered home/index.html.erb within layouts/application (4.5ms)
+I, [2018-06-30T08:59:26.215170 #6541]  INFO -- : [4bdf0922-f523-4136-b577-a03343ae2174] Completed 500 Internal Server Error in 5ms
+F, [2018-06-30T08:59:26.215893 #6541] FATAL -- : [4bdf0922-f523-4136-b577-a03343ae2174]   
+F, [2018-06-30T08:59:26.215916 #6541] FATAL -- : [4bdf0922-f523-4136-b577-a03343ae2174] ActionView::Template::Error (Invalid CSS after "sition: relative": expected "{", was ";"):
+F, [2018-06-30T08:59:26.216066 #6541] FATAL -- : [4bdf0922-f523-4136-b577-a03343ae2174]     1: <%= stylesheet_link_tag 'index', media: 'all', 'data-turbolinks-track' => true %>
+[4bdf0922-f523-4136-b577-a03343ae2174]     2: <%= stylesheet_link_tag 'initalize', media: 'all', 'data-turbolinks-track' => true %>
+[4bdf0922-f523-4136-b577-a03343ae2174]     3: <%= stylesheet_link_tag 'cur', media: 'all', 'data-turbolinks-track' => true %>
+[4bdf0922-f523-4136-b577-a03343ae2174]     4: <%= stylesheet_link_tag 'swiper.min', media: 'all', 'data-turbolinks-track' => true %>
+F, [2018-06-30T08:59:26.216092 #6541] FATAL -- : [4bdf0922-f523-4136-b577-a03343ae2174]   
+F, [2018-06-30T08:59:26.216106 #6541] FATAL -- : [4bdf0922-f523-4136-b577-a03343ae2174] (sass):2
+[4bdf0922-f523-4136-b577-a03343ae2174] app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__3922128903757640073_69885438601740'
+I, [2018-06-30T09:03:26.045429 #7202]  INFO -- : [3aa098da-20a1-453b-b905-9f759a504c51] Started GET "/" for 210.75.18.197 at 2018-06-30 09:03:26 +0800
+I, [2018-06-30T09:03:26.048692 #7202]  INFO -- : [3aa098da-20a1-453b-b905-9f759a504c51] Processing by HomeController#index as HTML
+I, [2018-06-30T09:03:26.074469 #7202]  INFO -- : [3aa098da-20a1-453b-b905-9f759a504c51]   Rendering home/index.html.erb within layouts/application
+I, [2018-06-30T09:03:26.282929 #7202]  INFO -- : [3aa098da-20a1-453b-b905-9f759a504c51]   Rendered home/index.html.erb within layouts/application (208.3ms)
+I, [2018-06-30T09:03:26.283229 #7202]  INFO -- : [3aa098da-20a1-453b-b905-9f759a504c51] Completed 500 Internal Server Error in 234ms
+F, [2018-06-30T09:03:26.283981 #7202] FATAL -- : [3aa098da-20a1-453b-b905-9f759a504c51]   
+F, [2018-06-30T09:03:26.284019 #7202] FATAL -- : [3aa098da-20a1-453b-b905-9f759a504c51] ActionView::Template::Error (Invalid CSS after "sition: relative": expected "{", was ";"):
+F, [2018-06-30T09:03:26.284234 #7202] FATAL -- : [3aa098da-20a1-453b-b905-9f759a504c51]     1: <%= stylesheet_link_tag 'index' %>
+[3aa098da-20a1-453b-b905-9f759a504c51]     2: <%= stylesheet_link_tag 'initalize' %>
+[3aa098da-20a1-453b-b905-9f759a504c51]     3: <%= stylesheet_link_tag 'cur' %>
+[3aa098da-20a1-453b-b905-9f759a504c51]     4: <%= stylesheet_link_tag 'swiper.min' %>
+F, [2018-06-30T09:03:26.284262 #7202] FATAL -- : [3aa098da-20a1-453b-b905-9f759a504c51]   
+F, [2018-06-30T09:03:26.284279 #7202] FATAL -- : [3aa098da-20a1-453b-b905-9f759a504c51] (sass):2
+[3aa098da-20a1-453b-b905-9f759a504c51] app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__3108422075495279149_47079417352220'
+I, [2018-06-30T09:08:38.611163 #7761]  INFO -- : [6babd738-fb8f-4471-bf61-69e1f465360f] Started GET "/" for 210.75.18.197 at 2018-06-30 09:08:38 +0800
+I, [2018-06-30T09:08:38.622200 #7761]  INFO -- : [6babd738-fb8f-4471-bf61-69e1f465360f] Processing by HomeController#index as HTML
+I, [2018-06-30T09:08:38.635786 #7761]  INFO -- : [6babd738-fb8f-4471-bf61-69e1f465360f]   Rendering home/index.html.erb within layouts/application
+I, [2018-06-30T09:08:38.645089 #7761]  INFO -- : [6babd738-fb8f-4471-bf61-69e1f465360f]   Rendered home/index.html.erb within layouts/application (9.1ms)
+I, [2018-06-30T09:08:38.963888 #7761]  INFO -- : [6babd738-fb8f-4471-bf61-69e1f465360f] Completed 500 Internal Server Error in 342ms
+F, [2018-06-30T09:08:38.964674 #7761] FATAL -- : [6babd738-fb8f-4471-bf61-69e1f465360f]   
+F, [2018-06-30T09:08:38.964707 #7761] FATAL -- : [6babd738-fb8f-4471-bf61-69e1f465360f] ActionView::Template::Error (Invalid CSS after "rset "UTF-8"": expected "{", was ";"):
+F, [2018-06-30T09:08:38.964828 #7761] FATAL -- : [6babd738-fb8f-4471-bf61-69e1f465360f]      6:   <meta name="keywords" content="深圳市四达鑫机电技术有限公司"/>
+[6babd738-fb8f-4471-bf61-69e1f465360f]      7:   <meta name="description" content="深圳市四达鑫机电技术有限公司"/>
+[6babd738-fb8f-4471-bf61-69e1f465360f]      8:   <title>四达鑫</title>
+[6babd738-fb8f-4471-bf61-69e1f465360f]      9:   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+[6babd738-fb8f-4471-bf61-69e1f465360f]     10:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+[6babd738-fb8f-4471-bf61-69e1f465360f]     11:   <script src="http://www.lionac.com/Application/Home/Static/js/jquery-3.1.1.min.js"></script>
+[6babd738-fb8f-4471-bf61-69e1f465360f]     12:   <%= csrf_meta_tags %>
+F, [2018-06-30T09:08:38.964854 #7761] FATAL -- : [6babd738-fb8f-4471-bf61-69e1f465360f]   
+F, [2018-06-30T09:08:38.964869 #7761] FATAL -- : [6babd738-fb8f-4471-bf61-69e1f465360f] (sass):1
+[6babd738-fb8f-4471-bf61-69e1f465360f] app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__3848681644100423547_46999389717880'
+I, [2018-06-30T09:09:38.165906 #7761]  INFO -- : [71c9d006-277f-48ee-be2c-8f22796186b0] Started GET "/" for 101.227.131.247 at 2018-06-30 09:09:38 +0800
+I, [2018-06-30T09:09:38.166710 #7761]  INFO -- : [71c9d006-277f-48ee-be2c-8f22796186b0] Processing by HomeController#index as */*
+I, [2018-06-30T09:09:38.170047 #7761]  INFO -- : [71c9d006-277f-48ee-be2c-8f22796186b0]   Rendering home/index.html.erb within layouts/application
+I, [2018-06-30T09:09:38.170878 #7761]  INFO -- : [71c9d006-277f-48ee-be2c-8f22796186b0]   Rendered home/index.html.erb within layouts/application (0.7ms)
+I, [2018-06-30T09:09:38.182515 #7761]  INFO -- : [71c9d006-277f-48ee-be2c-8f22796186b0] Completed 500 Internal Server Error in 16ms
+F, [2018-06-30T09:09:38.183215 #7761] FATAL -- : [71c9d006-277f-48ee-be2c-8f22796186b0]   
+F, [2018-06-30T09:09:38.183241 #7761] FATAL -- : [71c9d006-277f-48ee-be2c-8f22796186b0] ActionView::Template::Error (Invalid CSS after "rset "UTF-8"": expected "{", was ";"):
+F, [2018-06-30T09:09:38.183374 #7761] FATAL -- : [71c9d006-277f-48ee-be2c-8f22796186b0]      6:   <meta name="keywords" content="深圳市四达鑫机电技术有限公司"/>
+[71c9d006-277f-48ee-be2c-8f22796186b0]      7:   <meta name="description" content="深圳市四达鑫机电技术有限公司"/>
+[71c9d006-277f-48ee-be2c-8f22796186b0]      8:   <title>四达鑫</title>
+[71c9d006-277f-48ee-be2c-8f22796186b0]      9:   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+[71c9d006-277f-48ee-be2c-8f22796186b0]     10:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+[71c9d006-277f-48ee-be2c-8f22796186b0]     11:   <script src="http://www.lionac.com/Application/Home/Static/js/jquery-3.1.1.min.js"></script>
+[71c9d006-277f-48ee-be2c-8f22796186b0]     12:   <%= csrf_meta_tags %>
+F, [2018-06-30T09:09:38.183395 #7761] FATAL -- : [71c9d006-277f-48ee-be2c-8f22796186b0]   
+F, [2018-06-30T09:09:38.183410 #7761] FATAL -- : [71c9d006-277f-48ee-be2c-8f22796186b0] (sass):1
+[71c9d006-277f-48ee-be2c-8f22796186b0] app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__3848681644100423547_46999389717880'

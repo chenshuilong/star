@@ -1,0 +1,85 @@
+<%= stylesheet_link_tag 'initalize', media: 'all', 'data-turbolinks-track' => true %>
+<%= stylesheet_link_tag 'cur', media: 'all', 'data-turbolinks-track' => true %>
+<%= stylesheet_link_tag 'introduce', media: 'all', 'data-turbolinks-track' => true %>
+
+<div class="session">
+  <div class="banner-top banner-top-img1">
+    <p>开拓、创新、发展</p>
+  </div>
+  <div class="sess w1200 cf">
+    <div class="sess-left fl">
+      <div class="nav-box" id="tab">
+        <ul class="left-ul">
+          <li class="nav-item ">
+            <a class="" href="#"><span class="nav-point ">▶</span><span>公司简介</span></a></li>
+          <li class="nav-item ">
+            <a class="" href="#"><span class="nav-point">▶</span><span>企业文化</span></a>
+          </li>
+          <li class="nav-item ">
+            <a class="" href="#"><span class="nav-point">▶</span><span>企业荣誉</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="sess-box fr">
+      <div class="tab_box">
+        <div class="pro-box">
+          <div class="company">
+            <div class="company-title cf">
+              <span class="company-point fl"></span>
+              <h1 class="fl">公司简介</h1>
+            </div>
+            <div class="company-text">
+              <p>
+              <p><span style=";font-family:仿宋;font-size:21px"><span style="font-family:仿宋">&nbsp; &nbsp; 山东现代莱恩空调设备有限公司是集中央空调产品研发、生产、销售、安装、服务为一体的大型中央空调企业。公司创建于</span>1982年，是现代莱恩集团与欧洲著名制冷企业德国Ryan公司在亚太地区的唯一合作公司。</span>
+              </p>
+              <p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(88, 88, 88); font-family: " microsoft="" text-indent:="" white-space:="" background-color:="">
+                <img src="http://laienkongtiao.pro4.liuniukeji.net/Public/ueditor/php/upload/20171205/15124548055236.jpg" title="莱恩全景图.jpg"/>
+              </p>
+              <p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(88, 88, 88); font-family: " microsoft="" text-indent:="" white-space:="" background-color:="">
+                <br/>
+              </p>
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="pro-box hide">
+          <div class="culture">
+            <div class="company-title cf">
+              <span class="company-point fl"></span>
+              <h1 class="fl"></h1>
+              <span class="line fl"></span>
+            </div>
+            <div class="cul-box">
+              <div class="cul-text">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pro-box hide">
+          <div class="system">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<input type="hidden" value="0" id="flag">
+</div>
+
+<script>
+  $(function () {
+    $('.item').removeClass('item-on');
+    $('#lion').addClass('item-on');
+    var flag = $('#flag').val();
+    $('.left-ul li').siblings().removeClass('nav-item-on');
+    $('.left-ul li').eq(flag).addClass('nav-item-on');
+    $('.left-ul li a ').siblings().removeClass('active');
+    $('.left-ul li a ').eq(flag).addClass('active');
+    $('.left-ul li a .nav-point').siblings().removeClass('nav-point-on');
+    $('.left-ul li a .nav-point').eq(flag).addClass('nav-point-on');
+    $('.pro-box').siblings().addClass('hide');
+    $('.pro-box').eq(flag).removeClass('hide');
+  });
+</script>

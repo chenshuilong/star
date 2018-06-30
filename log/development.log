@@ -1,0 +1,914 @@
+  [1m[35m (3.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /root/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE DATABASE `star_development` DEFAULT CHARACTER SET `utf8`[0m
+  ↳ /root/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /root/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE DATABASE `star_test` DEFAULT CHARACTER SET `utf8`[0m
+  ↳ /root/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /root/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (35.5ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  ↳ /root/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (22.9ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+  ↳ /root/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('6371489168612806770', 0)[0m
+  ↳ /root/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /root/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ /root/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /root/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (1.0ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2018-06-27 08:24:13', '2018-06-27 08:24:13')[0m
+  ↳ /root/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /root/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('6371489168612806770')[0m
+  ↳ /root/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /root/.rbenv/versions/2.5.1/bin/rake:23
+Started GET "/" for 210.75.18.197 at 2018-06-28 08:59:42 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /root/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb (2.3ms)
+Completed 200 OK in 14ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /root/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Started GET "/" for 210.75.18.197 at 2018-06-28 09:02:35 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb (1.8ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 210.75.18.197 at 2018-06-28 09:28:16 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /root/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1002.5ms)
+Completed 500 Internal Server Error in 1011ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( index.css )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= stylesheet_link_tag 'index', media: 'all', 'data-turbolinks-track' => true %>
+    2: <%= stylesheet_link_tag 'initalize', media: 'all', 'data-turbolinks-track' => true %>
+    3: <%= stylesheet_link_tag 'cur', media: 'all', 'data-turbolinks-track' => true %>
+    4: <%= stylesheet_link_tag 'swiper.min', media: 'all', 'data-turbolinks-track' => true %>
+  
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb___185575753572706882_47010073284400'
+Started GET "/" for 210.75.18.197 at 2018-06-28 09:29:19 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /root/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (233.5ms)
+Completed 200 OK in 297ms (Views: 290.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/introduce/index" for 210.75.18.197 at 2018-06-28 09:29:53 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IntroduceController#index as HTML
+  Rendering introduce/index.html.erb within layouts/application
+  Rendered introduce/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 48ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product/index" for 210.75.18.197 at 2018-06-28 09:29:56 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductController#index as HTML
+  Rendering product/index.html.erb within layouts/application
+  Rendered product/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/case/index" for 210.75.18.197 at 2018-06-28 09:29:59 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CaseController#index as HTML
+  Rendering case/index.html.erb within layouts/application
+  Rendered case/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 58ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 09:30:05 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 54ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/introduce/index" for 210.75.18.197 at 2018-06-28 09:30:19 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IntroduceController#index as HTML
+  Rendering introduce/index.html.erb within layouts/application
+  Rendered introduce/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 43ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product/index" for 210.75.18.197 at 2018-06-28 09:30:21 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductController#index as HTML
+  Rendering product/index.html.erb within layouts/application
+  Rendered product/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 38ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/case/index" for 210.75.18.197 at 2018-06-28 09:30:22 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CaseController#index as HTML
+  Rendering case/index.html.erb within layouts/application
+  Rendered case/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 09:30:23 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 27ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 09:31:24 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /root/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (200.0ms)
+Completed 200 OK in 243ms (Views: 235.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/introduce/index" for 210.75.18.197 at 2018-06-28 09:31:47 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IntroduceController#index as HTML
+  Rendering introduce/index.html.erb within layouts/application
+  Rendered introduce/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 210.75.18.197 at 2018-06-28 09:31:52 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 32ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 183.61.51.57 at 2018-06-28 09:32:49 +0800
+Cannot render console from 183.61.51.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as */*
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 37ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/introduce/index" for 210.75.18.197 at 2018-06-28 09:33:04 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IntroduceController#index as HTML
+  Rendering introduce/index.html.erb within layouts/application
+  Rendered introduce/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 210.75.18.197 at 2018-06-28 09:33:06 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 46ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product/index" for 210.75.18.197 at 2018-06-28 09:33:06 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductController#index as HTML
+  Rendering product/index.html.erb within layouts/application
+  Rendered product/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/case/index" for 210.75.18.197 at 2018-06-28 09:33:07 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CaseController#index as HTML
+  Rendering case/index.html.erb within layouts/application
+  Rendered case/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 32ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 09:33:08 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 210.75.18.197 at 2018-06-28 09:33:12 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 09:33:15 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 27ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?nsukey=J6S6OWwY0RDLmi9kMoLe79aw8GJg6S9b1V2Ba9OSpKoodL7J6uV9Mp1f9b2F2IEUkbQdT8UuUdi29ftv7bvuXP31YVxZ3rjdzCcbKEJhOkm2TZTZDhMcO8AB5LaYnUg2b599d1yNBhwz27ugm8eAma713M457VrAM2Fp4xn6D2BWrcfycnGoXUlYzRgQjY2za2KQWTOPXb2GitymmTNhxwagw3D3D" for 61.129.7.217 at 2018-06-28 09:33:17 +0800
+Cannot render console from 61.129.7.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Parameters: {"nsukey"=>"J6S6OWwY0RDLmi9kMoLe79aw8GJg6S9b1V2Ba9OSpKoodL7J6uV9Mp1f9b2F2IEUkbQdT8UuUdi29ftv7bvuXP31YVxZ3rjdzCcbKEJhOkm2TZTZDhMcO8AB5LaYnUg2b599d1yNBhwz27ugm8eAma713M457VrAM2Fp4xn6D2BWrcfycnGoXUlYzRgQjY2za2KQWTOPXb2GitymmTNhxwagw3D3D"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 113.116.132.175 at 2018-06-28 09:33:18 +0800
+Cannot render console from 113.116.132.175! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 210.75.18.197 at 2018-06-28 09:33:26 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 30ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/introduce/index" for 210.75.18.197 at 2018-06-28 09:33:28 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IntroduceController#index as HTML
+  Rendering introduce/index.html.erb within layouts/application
+  Rendered introduce/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/introduce/index" for 210.75.18.197 at 2018-06-28 09:33:29 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IntroduceController#index as HTML
+  Rendering introduce/index.html.erb within layouts/application
+  Rendered introduce/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 30ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product/index" for 210.75.18.197 at 2018-06-28 09:33:29 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductController#index as HTML
+  Rendering product/index.html.erb within layouts/application
+  Rendered product/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/case/index" for 210.75.18.197 at 2018-06-28 09:33:30 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CaseController#index as HTML
+  Rendering case/index.html.erb within layouts/application
+  Rendered case/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 09:33:31 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product/index" for 210.75.18.197 at 2018-06-28 09:33:34 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductController#index as HTML
+  Rendering product/index.html.erb within layouts/application
+  Rendered product/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/introduce/index" for 210.75.18.197 at 2018-06-28 09:33:39 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IntroduceController#index as HTML
+  Rendering introduce/index.html.erb within layouts/application
+  Rendered introduce/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/introduce/index" for 210.75.18.197 at 2018-06-28 09:33:41 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IntroduceController#index as HTML
+  Rendering introduce/index.html.erb within layouts/application
+  Rendered introduce/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 09:33:42 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (23.8ms)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 09:33:44 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 30ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/introduce/index" for 210.75.18.197 at 2018-06-28 09:33:47 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IntroduceController#index as HTML
+  Rendering introduce/index.html.erb within layouts/application
+  Rendered introduce/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?nsukey=J6S6OWwY0RDLmi9kMoLe79aw8GJg6S9b1V%2Ba9OSpKoodL7J6uV9Mp1f9b%2F2IEUkbQdT8UuUdi29ftv7bvuXP31YVxZ3rjdzCcbKEJhOkm2TZTZDhMcO8AB5LaYnUg2b599d1yNBhwz27ugm8eAma713M457VrAM2Fp4xn6D%2BWrcfycnGoXUlYzRgQjY2za2KQWTOPXb2GitymmTNhxwagw%3D%3D" for 101.226.93.191 at 2018-06-28 09:34:16 +0800
+Cannot render console from 101.226.93.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as */*
+  Parameters: {"nsukey"=>"J6S6OWwY0RDLmi9kMoLe79aw8GJg6S9b1V+a9OSpKoodL7J6uV9Mp1f9b/2IEUkbQdT8UuUdi29ftv7bvuXP31YVxZ3rjdzCcbKEJhOkm2TZTZDhMcO8AB5LaYnUg2b599d1yNBhwz27ugm8eAma713M457VrAM2Fp4xn6D+WrcfycnGoXUlYzRgQjY2za2KQWTOPXb2GitymmTNhxwagw=="}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 58ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/introduce/index" for 113.116.132.175 at 2018-06-28 09:34:19 +0800
+Cannot render console from 113.116.132.175! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IntroduceController#index as HTML
+  Rendering introduce/index.html.erb within layouts/application
+  Rendered introduce/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/introduce/index" for 210.75.18.197 at 2018-06-28 09:35:34 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IntroduceController#index as HTML
+  Rendering introduce/index.html.erb within layouts/application
+  Rendered introduce/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 53ms (Views: 52.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/introduce/index" for 106.120.160.109 at 2018-06-28 09:42:39 +0800
+Cannot render console from 106.120.160.109! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /root/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by IntroduceController#index as HTML
+  Rendering introduce/index.html.erb within layouts/application
+  Rendered introduce/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 29ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/introduce/index" for 101.199.112.53 at 2018-06-28 09:43:16 +0800
+Cannot render console from 101.199.112.53! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IntroduceController#index as HTML
+  Rendering introduce/index.html.erb within layouts/application
+  Rendered introduce/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 30ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 61.151.225.191 at 2018-06-28 09:45:30 +0800
+Cannot render console from 61.151.225.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as */*
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 34ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 210.75.18.197 at 2018-06-28 09:45:57 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 210.75.18.197 at 2018-06-28 09:46:13 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/introduce/index" for 210.75.18.197 at 2018-06-28 09:47:03 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IntroduceController#index as HTML
+  Rendering introduce/index.html.erb within layouts/application
+  Rendered introduce/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 210.75.18.197 at 2018-06-28 09:47:08 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/introduce/index" for 210.75.18.197 at 2018-06-28 09:47:39 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IntroduceController#index as HTML
+  Rendering introduce/index.html.erb within layouts/application
+  Rendered introduce/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product/index" for 210.75.18.197 at 2018-06-28 09:47:42 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductController#index as HTML
+  Rendering product/index.html.erb within layouts/application
+  Rendered product/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/case/index" for 210.75.18.197 at 2018-06-28 09:47:44 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CaseController#index as HTML
+  Rendering case/index.html.erb within layouts/application
+  Rendered case/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 09:47:59 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 210.75.18.197 at 2018-06-28 09:48:08 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 106.120.160.109 at 2018-06-28 09:48:24 +0800
+Cannot render console from 106.120.160.109! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 210.75.18.197 at 2018-06-28 09:48:43 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/introduce/index" for 210.75.18.197 at 2018-06-28 09:48:48 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IntroduceController#index as HTML
+  Rendering introduce/index.html.erb within layouts/application
+  Rendered introduce/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 61.151.226.85 at 2018-06-28 09:49:08 +0800
+Cannot render console from 61.151.226.85! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as */*
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 35ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product/index" for 210.75.18.197 at 2018-06-28 09:49:43 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductController#index as HTML
+  Rendering product/index.html.erb within layouts/application
+  Rendered product/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 28ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/case/index" for 210.75.18.197 at 2018-06-28 09:49:45 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CaseController#index as HTML
+  Rendering case/index.html.erb within layouts/application
+  Rendered case/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 09:49:46 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 29ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 210.75.18.197 at 2018-06-28 09:49:49 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 37ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 210.75.18.197 at 2018-06-28 10:52:17 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /root/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (184.2ms)
+Completed 200 OK in 212ms (Views: 205.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 210.75.18.197 at 2018-06-28 10:53:42 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/introduce/index" for 210.75.18.197 at 2018-06-28 10:53:48 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IntroduceController#index as HTML
+  Rendering introduce/index.html.erb within layouts/application
+  Rendered introduce/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product/index" for 210.75.18.197 at 2018-06-28 10:53:50 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductController#index as HTML
+  Rendering product/index.html.erb within layouts/application
+  Rendered product/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/case/index" for 210.75.18.197 at 2018-06-28 10:53:52 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CaseController#index as HTML
+  Rendering case/index.html.erb within layouts/application
+  Rendered case/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 10:53:59 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 210.75.18.197 at 2018-06-28 10:54:19 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/introduce/index" for 210.75.18.197 at 2018-06-28 10:55:03 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IntroduceController#index as HTML
+  Rendering introduce/index.html.erb within layouts/application
+  Rendered introduce/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product/index" for 210.75.18.197 at 2018-06-28 10:55:05 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductController#index as HTML
+  Rendering product/index.html.erb within layouts/application
+  Rendered product/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/case/index" for 210.75.18.197 at 2018-06-28 10:55:06 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CaseController#index as HTML
+  Rendering case/index.html.erb within layouts/application
+  Rendered case/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 28ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 10:55:07 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 120.92.11.176 at 2018-06-28 11:07:48 +0800
+Cannot render console from 120.92.11.176! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /root/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as */*
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 27ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 11:09:25 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/case/index" for 210.75.18.197 at 2018-06-28 11:10:03 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CaseController#index as HTML
+  Rendering case/index.html.erb within layouts/application
+  Rendered case/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product/index" for 210.75.18.197 at 2018-06-28 11:10:04 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductController#index as HTML
+  Rendering product/index.html.erb within layouts/application
+  Rendered product/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/introduce/index" for 210.75.18.197 at 2018-06-28 11:10:07 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IntroduceController#index as HTML
+  Rendering introduce/index.html.erb within layouts/application
+  Rendered introduce/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 210.75.18.197 at 2018-06-28 11:10:09 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 11:10:12 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 11:10:17 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 28ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 11:10:20 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 11:10:22 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 11:10:23 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 11:27:44 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /root/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (191.6ms)
+Completed 200 OK in 222ms (Views: 215.0ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /root/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Started GET "/introduce/index" for 210.75.18.197 at 2018-06-28 11:30:21 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IntroduceController#index as HTML
+  Rendering introduce/index.html.erb within layouts/application
+  Rendered introduce/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product/index" for 210.75.18.197 at 2018-06-28 11:30:23 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductController#index as HTML
+  Rendering product/index.html.erb within layouts/application
+  Rendered product/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/case/index" for 210.75.18.197 at 2018-06-28 11:30:24 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CaseController#index as HTML
+  Rendering case/index.html.erb within layouts/application
+  Rendered case/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/introduce/index" for 210.75.18.197 at 2018-06-28 11:30:26 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IntroduceController#index as HTML
+  Rendering introduce/index.html.erb within layouts/application
+  Rendered introduce/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 11:30:27 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 210.75.18.197 at 2018-06-28 11:30:30 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/introduce/index" for 210.75.18.197 at 2018-06-28 11:30:32 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IntroduceController#index as HTML
+  Rendering introduce/index.html.erb within layouts/application
+  Rendered introduce/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 11:30:33 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 210.75.18.197 at 2018-06-28 11:30:37 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 11:30:40 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 11:30:42 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 28ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 11:30:44 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 11:30:45 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 11:30:45 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 11:30:45 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 210.75.18.197 at 2018-06-28 11:30:47 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cache/global/img/gs.gif" for 93.174.93.136 at 2018-06-28 11:40:50 +0800
+Cannot render console from 93.174.93.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /root/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/cache/global/img/gs.gif"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+rack (2.0.5) lib/rack/handler/webrick.rb:86:in `service'
+/root/.rbenv/versions/2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+/root/.rbenv/versions/2.5.1/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+/root/.rbenv/versions/2.5.1/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/" for 210.75.18.197 at 2018-06-28 14:00:12 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /root/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (179.0ms)
+Completed 200 OK in 205ms (Views: 198.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/introduce/index" for 210.75.18.197 at 2018-06-28 14:00:25 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /root/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by IntroduceController#index as HTML
+  Rendering introduce/index.html.erb within layouts/application
+  Rendered introduce/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product/index" for 210.75.18.197 at 2018-06-28 14:00:27 +0800
+Cannot render console from 210.75.18.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductController#index as HTML
+  Rendering product/index.html.erb within layouts/application
+  Rendered product/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+

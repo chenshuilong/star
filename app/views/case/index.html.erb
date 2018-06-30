@@ -1,0 +1,110 @@
+<%= stylesheet_link_tag 'initalize', media: 'all', 'data-turbolinks-track' => true %>
+<%= stylesheet_link_tag 'cur', media: 'all', 'data-turbolinks-track' => true %>
+<%= stylesheet_link_tag 'product', media: 'all', 'data-turbolinks-track' => true %>
+
+<div class="session">
+  <div class="banner-top banner-top-img3">
+    <p>中德合资、精工品质</p>
+  </div>
+  <div class="sess w1200 cf">
+    <div class="sess-left fl">
+      <div class="nav-box" id="tab">
+        <ul class="">
+          <div class="nav-item-title">经典项目</div>
+          <li class="nav-item  nav-item-on case" data-id="22" data-name="12">
+            <span class="nav-point nav-point-on">▶</span><span>中国航天陕西第四研究院</span></li>
+          <li class="nav-item   case" data-id="15" data-name="12"><span class="nav-point ">▶</span><span>山西现代茶文化城</span>
+          </li>
+          <li class="nav-item   case" data-id="14" data-name="12">
+            <span class="nav-point ">▶</span><span>潍坊寿光全福元购物中心</span></li>
+          <li class="nav-item   case" data-id="13" data-name="12"><span class="nav-point ">▶</span><span>仁寿中央国际广场</span>
+          </li>
+          <li class="nav-item   case" data-id="12" data-name="12">
+            <span class="nav-point ">▶</span><span>新疆库车五星级饭店</span></li>
+          <li class="nav-item   case" data-id="5" data-name="12">
+            <span class="nav-point ">▶</span><span>新野书香人家高档小区</span></li>
+          <li class="nav-item   case" data-id="4" data-name="12"><span class="nav-point ">▶</span><span>永州上城国际大酒店</span>
+          </li>
+          <li class="nav-item   case" data-id="3" data-name="12"><span class="nav-point ">▶</span><span>天马微电子有限公司</span>
+          </li>
+          <li class="nav-item   case" data-id="2" data-name="12">
+            <span class="nav-point ">▶</span><span>青岛报业传媒数字印刷产业园</span></li>
+          <li class="nav-item   case" data-id="1" data-name="12"><span class="nav-point ">▶</span><span>潍坊北大领世郡</span>
+          </li>
+          <div class="nav-item-title item-title-mag">系统工程</div>
+          <li class="nav-item   case" data-id="21" data-name="13"><span class="nav-point ">▶</span><span>河南许昌文化中心</span>
+          </li>
+          <li class="nav-item   case" data-id="20" data-name="13"><span class="nav-point ">▶</span><span>洛阳京都肿瘤医院</span>
+          </li>
+          <li class="nav-item   case" data-id="19" data-name="13">
+            <span class="nav-point ">▶</span><span>长城汽车股份有限公司</span></li>
+          <li class="nav-item   case" data-id="18" data-name="13">
+            <span class="nav-point ">▶</span><span>四川绵阳四〇四医院</span></li>
+          <li class="nav-item   case" data-id="17" data-name="13"><span class="nav-point ">▶</span><span>石家庄汗蒸时代</span>
+          </li>
+          <li class="nav-item   case" data-id="16" data-name="13"><span class="nav-point ">▶</span><span>西藏军区总医院</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="sess-box fr">
+      <div class="tab_box" id="ajax_comment_return">
+
+        <div class="pro-box">
+          <div class="company">
+            <div class="company-title cf">
+              <span class="company-point fl"></span>
+              <h1 class="fl">经典项目</h1>
+            </div>
+            <div class="company-text">
+              <img src="http://www.lionac.com/Uploads/Picture/Case/2017-12-15/5a33445c92e2f.jpg" alt="">
+              <h1>中国航天陕西第四研究院</h1>
+              <p>&nbsp;陕西航天四院科研所项目采用莱恩中央空调主机设备及末端产品!这是莱恩中央空调继前期成功服务河北长城汽车之后，再一次强势出击，凭借出色的产品品质和服务质量赢得认可。</p>
+              <p>据获悉，陕西航天四院曾经担负过“神七”部门的试车以及北京奥运会珠峰火炬引火器设计工作。在对空气质量有着近乎苛刻要求的前提下，使用莱恩中央空调机组全套产品，是对莱恩的产品品质的最佳见证。</p>
+              <p>至此莱恩中央空调的产品服务已正式进入航空航天、汽车制造、医疗科研等多个高精尖领域， 作为中国航天事业合作伙伴，莱恩中央空调一直心系祖国航天事业，为祖国航天事业的发展做好保障工作，默默贡献力量而骄傲。</p>
+              <p><br/></p></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    var $tab_li = $('#tab ul li');
+    $tab_li.click(function () {
+      $(this).addClass('nav-item-on').siblings().removeClass('nav-item-on');
+      var index = $tab_li.index(this);
+      $('div.tab_box > div').eq(index).show().siblings().hide();
+      $(".nav-item .nav-point").hide();
+      $(".nav-item-on .nav-point").show();
+    });
+  });
+
+  $(function () {
+    $('.item').removeClass('item-on');
+    $('#case').addClass('item-on');
+  });
+
+  $(".case").click(function () {
+    var case_name = $(this).attr('data-name');
+    var case_id = $(this).attr('data-id');
+    ajaxList(case_id, case_name);
+  });
+
+  function ajaxList(case_id, case_name) {
+//    $.ajax({
+//      type:'post',
+//      url:"/index.php?s=/Home/Case/ajaxCase",
+//      data:{case_id:case_id,category_id:case_name},
+//      success:function(data){
+//        $("#ajax_comment_return").html("");
+//        $("#ajax_comment_return").append(data);
+//      }
+//    })
+  }
+</script>
+

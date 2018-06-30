@@ -1,0 +1,213 @@
+
+dy {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 1200px;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.w1200 {
+    width: 1200px;
+    display: block;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background: #fff;
+}
+
+.header .head {
+    margin: 0 auto;
+}
+
+.header .head .logo {
+    width: 262px;
+    margin-top: 19px;
+    margin-left: 18px;
+}
+
+.header .head .logo img {
+    width: 100%;
+}
+
+.header .head .navgation {
+    margin-top: 30px;
+}
+
+.header .head .navgation .item {
+    display: inline-block;
+    width: 102px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #333333;
+}
+
+.header .head .navgation .item-on {
+    border-bottom: 2px solid #0068b7;
+    font-weight: bold;
+}
+
+.header .head .navgation .item:hover {
+    border-bottom: 2px solid #0068b7;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+}
+
+.footer .footer-box {
+    background: #0068b7;
+}
+
+.footer .foot-box {
+    padding-top: 45px;
+    padding-left: 78px;
+    padding-bottom: 40px;
+}
+
+.footer .foot-box .foot-head .foot-logo {
+    width: 262px;
+    height: 63px;
+    margin-right: 77px;
+}
+
+.footer .foot-box .foot-head .foot-logo img {
+    width: 100%;
+    display: block;
+}
+
+.footer .foot-box .foot-head .foot-company {
+    color: #fff;
+    text-align: center;
+}
+
+.footer .foot-box .foot-head .foot-company h1 {
+    font-size: 30px;
+}
+
+.footer .foot-box .foot-head .foot-company h6 {
+    font-size: 12px;
+}
+
+.footer .foot-box .foot-left .foot-text {
+    margin-top: 40px;
+}
+
+.footer .foot-box .foot-left .foot-text .foot-adr {
+    margin-right: 160px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.footer .foot-box .foot-left .foot-text .foot-adr a {
+    color: #fff;
+}
+
+.footer .foot-box .foot-right {
+    margin-top: 40px;
+}
+
+.footer .foot-box .foot-right p {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer .foot-box .foot-right .foot-ma {
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+}
+
+.footer .foot-box .foot-right .foot-ma img {
+    width: 100%;
+    display: block;
+}
+
+.foot-sup {
+    width: 100%;
+    height: 54px;
+    background: #f0f1f3;
+}
+
+.foot-sup .sup {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: #818181;
+    line-height: 52px;
+}
+
+.foot-sup .sup a {
+    color: #818181;
+    margin: 0 5px;
+}
+
+.foot-sup .sup span {
+    margin: 0 10px;
+}
+
+.banner-mag {
+    margin: 0 auto;
+}
+
+.banner-top {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+    font-size: 36px;
+
+}
+
+.banner-top-img1 {
+    background: url("http://www.lionac.com/Application/Home/Static/images/banner_top1.jpg") no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+
+.banner-top-img2 {
+    background: url("http://www.lionac.com/Application/Home/Static/images/banner_top2.jpg") no-repeat center center;
+    background-size: cover;
+    color: #222222;
+}
+
+.banner-top-img3 {
+    background: url("http://www.lionac.com/Application/Home/Static/images/banner_top3.jpg") no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+
+.banner-top-img4 {
+    background: url("http://www.lionac.com/Application/Home/Static/images/banner_top4.jpg") no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+
+.banner-top-img5 {
+    background: url("http://www.lionac.com/Application/Home/Static/images/banner_top5.jpg") no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+
+.banner-top-img6 {
+    background: url("http://www.lionac.com/Application/Home/Static/images/banner_top6.jpg") no-repeat center center;
+    background-size: cover;
+    color: #222222;
+}
+
+.banner-top-img7 {
+    background: url("http://www.lionac.com/Application/Home/Static/images/banner_top7.jpg") no-repeat center center;
+    background-size: cover;
+    color: #222222;
+}

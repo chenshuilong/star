@@ -1,0 +1,217 @@
+ess {
+    margin: 20px auto;
+}
+
+.sess-left {
+    width: 250px;
+}
+
+.sess-left .nav-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.nav-item-title {
+    height: 48px;
+    font-size: 16px;
+    line-height: 48px;
+    font-weight: bold;
+    background: #0068b7;
+    padding-left: 34px;
+    color: #fff;
+}
+
+.item-title-mag {
+    margin-top: 10px;
+}
+
+.sess-left .nav-box .nav-item {
+    position: relative;
+    height: 48px;
+    font-size: 14px;
+    color: #383838;
+    line-height: 48px;
+    font-weight: bold;
+    padding-left: 45px;
+    padding-right: 15px;
+    background: #fff;
+}
+
+.sess-left .nav-box .nav-item:last-child {
+    border-bottom: none;
+}
+
+.sess-left .nav-box .nav-item-on {
+    color: #0068b7;
+}
+
+.nav-point {
+    position: absolute;
+    left: 25px;
+    top: 0;
+    width: 0;
+    height: 0;
+    color: #0068b7;
+    display: none;
+}
+
+.nav-point-on {
+    display: block;
+}
+
+.sess-box {
+    width: 930px;
+}
+
+.company {
+    position: relative;
+    width: 100%;
+    padding: 38px 55px;
+    background: #fff;
+}
+
+.company-title .company-point {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    display: block;
+    background: #0068b7;
+    top: 10px;
+    left: -25px;
+}
+
+.company-title {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.company-title h1 {
+    font-size: 26px;
+    color: #333333;
+    text-align: left;
+}
+
+.company .company-text {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.company .company-text p {
+    font-size: 16px;
+    color: #585858;
+    line-height: 25px;
+    text-indent: 32px;
+}
+
+.company .company-text h1 {
+    font-size: 26px;
+    color: #333333;
+    line-height: 40px;
+}
+
+.company .company-text img {
+    position: relative;
+    width: 100%;
+    max-width: 815px;
+    margin: 30px auto;
+}
+
+.hide {
+    display: none;
+}
+
+.culture {
+    position: relative;
+    width: 100%;
+    height: 1137px;
+    padding: 38px 55px;
+    background: url("http://www.lionac.com/Application/Home/Static/images/company_bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.line {
+    margin-top: 25px;
+    margin-left: 10px;
+    display: block;
+    width: 522px;
+    height: 1px;
+    border-bottom: 1px dashed #edeeee;
+}
+
+.cul-box {
+    padding: 10px 15px;
+}
+
+.cul-text {
+    margin-bottom: 45px;
+}
+
+.cul-text .cul-point {
+    width: 10px;
+    height: 10px;
+    display: block;
+    background: #0068b7;
+    position: absolute;
+    left: -20px;
+    top: 10px;
+}
+
+.cul-text h1 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #0068b7;
+    position: relative;
+}
+
+.cul-text p {
+    font-size: 16px;
+    color: #333333;
+    line-height: 30px;
+}
+
+.system {
+    width: 100%;
+    background: #fff;
+    padding: 38px 55px;
+    position: relative;
+}
+
+.system .system-box {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.system-box .system-img .img-box {
+    width: 273px;
+    height: 345px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.system-box .system-img .img-box .pic-box {
+    position: relative;
+    height: 289px;
+}
+
+.system-box .system-img .img-box img {
+    position: absolute;
+    bottom: 0;
+    max-width: 250px;
+    max-height: 289px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.system-box .system-img .img-box p {
+    font-size: 16px;
+    color: #333333;
+    line-height: 35px;
+}
+
+.foot-bg {
+    background: #fff;
+}

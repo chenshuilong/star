@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta name="keywords" content="深圳市四达鑫机电技术有限公司"/>
+  <meta name="description" content="深圳市四达鑫机电技术有限公司"/>
+  <title>四达鑫</title>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <script src="http://www.lionac.com/Application/Home/Static/js/jquery-3.1.1.min.js"></script>
+  <%= csrf_meta_tags %>
+  <!-- lionac.com Baidu tongji analytics -->
+  <script>
+    var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?59a864b7c80539686767f5ee9c71bfde";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+</head>
+
+<body class="c-bd">
+<!--head-->
+<div class="header cf">
+  <div class="head w1200">
+    <a href="/">
+      <div class="logo fl">
+        <img src="http://www.lionac.com/Application/Home/Static/images/logo.png" alt="">
+      </div>
+    </a>
+    <div class="navgation fr">
+      <a href="/" class="item" id="index">首页</a>
+      <a href="/introduce/index" class="item item-on" id="lion">关于我们</a>
+      <a href="/product/index" class="item" id="product">产品中心</a>
+      <a href="/case/index" class="item" id="case">工程案例</a>
+      <a href="/contact/index" class="item" id="contact">联系我们</a>
+    </div>
+  </div>
+</div>
+
+<%= yield %>
+
+<div class="up">
+  <a href="http://wpa.qq.com/msgrd?v=3&uin=281063050&site=qq&menu=yes" alt="点击这里给我发消息" title="点击这里给我发消息" target="_blank">
+    <div class="up-qq">
+      <div class="qq-img"></div>
+      <p>客服QQ</p>
+    </div>
+  </a>
+  <div class="up-ma">
+    <img src="http://www.lionac.com/Uploads/Picture/Banner/2017-12-02/5a220d29a924c.jpg" alt="">
+    <div class="ma-img">
+      <img src="http://www.lionac.com/Uploads/Picture/Banner/2017-12-02/5a220d29a924c.jpg" alt="">
+      <div class="ma-bor"></div>
+    </div>
+  </div>
+  <a href="#">
+    <div class="up-box">
+      <h1>︿</h1>
+      <p>回到顶部</p>
+    </div>
+  </a>
+</div>
+
+<div class="footer">
+  <div class="footer-box">
+    <div class="banner-mag w1200 ">
+      <div class="foot-box cf">
+        <div class="foot-left fl">
+          <div class="foot-head cf">
+            <div class="foot-logo fl">
+              <img src="http://www.lionac.com/Application/Home/Static/images/logo_white.png" alt="">
+            </div>
+            <div class="foot-company fl">
+              <h1>深圳市四达鑫机电技术有限公司</h1>
+              <h6>SHENZHEN MODERN LION AIR-CONDITIONING EQUIPMENT CO.,LTD.</h6>
+            </div>
+          </div>
+          <div class="foot-text cf">
+            <div class="foot-adr fl">
+              <p>地址：广东省深圳市龙华新区清祥路</p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;清湖科技园B栋1125-1126室</p>
+              <p>网址：<a href="#">http://www.lionac.com</a></p>
+            </div>
+            <div class="foot-adr fl">
+              <p>手机：18026971089</p>
+              <p>电话：0755-22941391 </p>
+              <p>售后服务：0755-22941391</p>
+            </div>
+          </div>
+        </div>
+        <div class="foot-right fr">
+          <p>扫码关注微信</p>
+          <div class="foot-ma">
+            <img src="http://www.lionac.com/Uploads/Picture/Banner/2017-12-02/5a220d29a924c.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot-sup">
+    <div class="banner-mag w1200">
+      <div class="sup">
+        <p>
+          <span>© 2017-2027  www.lionac.com 版权所有</span><span>技术支持：六牛科技   <a href="https://www.liuniukeji.com/" target="_blank">www.liuniukeji.com</a></span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
