@@ -1,5 +1,6 @@
 
-sition: relative;
+.c-bd {
+    position: relative;
     overflow-x: hidden;
 }
 
@@ -21,7 +22,7 @@ sition: relative;
 .sess .sess-box .news-nav .news-title {
     width: 252px;
     height: 113px;
-    background: #0068b7;
+    background: #d80101;
     padding: 22px 39px 29px 39px;
     margin-top: -36px;
 }
@@ -73,14 +74,14 @@ sition: relative;
 }
 
 .news .news-box .news-list a:hover {
-    color: #0068b7;
+    color: #d80101;
 }
 
 .point-blue {
     width: 10px;
     height: 10px;
     display: inline-block;
-    background: #0068b7;
+    background: #d80101;
     margin-right: 25px;
 }
 
@@ -163,9 +164,9 @@ sition: relative;
 }
 
 .about-head {
-    border-left: 10px solid #0068b7;
+    border-left: 10px solid #d80101;
     padding-left: 10px;
-    color: #1c74bc;
+    color: #d80101;
     margin-bottom: 10px;
 }
 
@@ -179,7 +180,7 @@ sition: relative;
 
 .about .about-left .about-text {
     font-size: 14px;
-    color: #005ea6;
+    color: #d80101;
     text-indent: 28px;
     line-height: 25px;
 }
@@ -187,7 +188,7 @@ sition: relative;
 .about .about-right {
     width: 132px;
     height: 58px;
-    background: #33a7ff;
+    background: #d80101;
     text-align: center;
 }
 
@@ -611,9 +612,9 @@ sition: relative;
 }
 
 .up .up-box:hover {
-    background: #007ad6;
+    background: #d80101;
     color: #fff;
-    border: 1px solid #007ad6;
+    border: 1px solid #d80101;
 }
 
 .ma-img {

@@ -1,5 +1,4 @@
-
-dy {
+html, body {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -50,12 +49,12 @@ dy {
 }
 
 .header .head .navgation .item-on {
-    border-bottom: 2px solid #0068b7;
+    border-bottom: 2px solid #d80101;
     font-weight: bold;
 }
 
 .header .head .navgation .item:hover {
-    border-bottom: 2px solid #0068b7;
+    border-bottom: 2px solid #d80101;
 }
 
 .footer {
@@ -64,7 +63,7 @@ dy {
 }
 
 .footer .footer-box {
-    background: #0068b7;
+    background: gray;
 }
 
 .footer .foot-box {

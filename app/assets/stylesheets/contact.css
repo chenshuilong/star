@@ -1,4 +1,6 @@
-dth: 940px;
+
+.w940 {
+    width: 940px;
 }
 
 .sess {
@@ -51,7 +53,7 @@ dth: 940px;
 }
 
 .contact-adr .adr h1 {
-    border-left: 6px solid #0068b7;
+    border-left: 6px solid #d80101;
     padding-left: 10px;
     font-size: 14px;
 }

@@ -1,4 +1,5 @@
-ess {
+
+.sess {
     margin: 20px auto;
 }
 
@@ -16,7 +17,7 @@ ess {
     font-size: 16px;
     line-height: 48px;
     font-weight: bold;
-    background: #0068b7;
+    background: #d80101;
     padding-left: 34px;
     color: #fff;
 }
@@ -42,7 +43,7 @@ ess {
 }
 
 .sess-left .nav-box .nav-item-on {
-    color: #0068b7;
+    color: #d80101;
 }
 
 .nav-point {
@@ -51,7 +52,7 @@ ess {
     top: 0;
     width: 0;
     height: 0;
-    color: #0068b7;
+    color: #d80101;
     display: none;
 }
 
@@ -75,7 +76,7 @@ ess {
     width: 16px;
     height: 16px;
     display: block;
-    background: #0068b7;
+    background: #d80101;
     top: 10px;
     left: -25px;
 }
@@ -152,7 +153,7 @@ ess {
     width: 10px;
     height: 10px;
     display: block;
-    background: #0068b7;
+    background: #d80101;
     position: absolute;
     left: -20px;
     top: 10px;
@@ -162,7 +163,7 @@ ess {
     font-size: 20px;
     line-height: 30px;
     font-weight: bold;
-    color: #0068b7;
+    color: #d80101;
     position: relative;
 }
 
